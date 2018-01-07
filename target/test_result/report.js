@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 87630543184,
+  "duration": 247636761932,
   "status": "passed"
 });
 formatter.before({
-  "duration": 275103,
+  "duration": 149286,
   "status": "passed"
 });
 formatter.before({
-  "duration": 156618,
+  "duration": 93404,
   "status": "passed"
 });
 formatter.scenario({
@@ -51,8 +51,9 @@ formatter.match({
   "location": "WelcomePage_steps.welcome_Page_Enter_Sign_In_Screen()"
 });
 formatter.result({
-  "duration": 1077539745,
-  "status": "passed"
+  "duration": 5860310956,
+  "error_message": "java.lang.ClassCastException: org.openqa.selenium.remote.RemoteWebElement cannot be cast to io.appium.java_client.MobileElement\n\tat Tools.Helper.findByAccessibilityId(Helper.java:41)\n\tat Screens.WelcomePage.SignIntoGlipButton(WelcomePage.java:20)\n\tat Screens.WelcomePage.EnterSignIntoScreen(WelcomePage.java:25)\n\tat Steps.WelcomePage_steps.welcome_Page_Enter_Sign_In_Screen(WelcomePage_steps.java:32)\n\tat ✽.Given [WelcomePage] Enter Sign In screen(features/Login.feature:18)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -68,14 +69,12 @@ formatter.match({
   "location": "SignInPage_steps.signinpage_InputProductionEmailAndPasswordAndLogin(String,String)"
 });
 formatter.result({
-  "duration": 28518053430,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NotificationPage_steps.notification_pageLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 174102097,
-  "status": "passed"
+  "status": "skipped"
 });
 });
