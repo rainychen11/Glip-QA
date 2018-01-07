@@ -3,6 +3,7 @@ package Steps;
 import Tools.AppiumTestBase;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import Screens.WelcomePage;
 import cucumber.api.java.After;

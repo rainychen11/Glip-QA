@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 78888075128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WelcomePage_steps.Start()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NotificationPage_steps.Start()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69342,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInPage_steps.Start()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Firstly login via email on Production",
+        "description": "",
+        "id": "login;firstly-login-via-email-on-production",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1279055922,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "[WelcomePage] Enter Sign In screen",
+            "match": {
+              "location": "WelcomePage_steps.welcome_Page_Enter_Sign_In_Screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30111114821,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "[SignInPage] Input Production Email \"rainy.chen11@gmail.com\" and Password \"Test!123\" and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rainy.chen11@gmail.com",
+                  "offset": 37
+                },
+                {
+                  "val": "Test!123",
+                  "offset": 75
+                }
+              ],
+              "location": "SignInPage_steps.signinpage_InputProductionEmailAndPasswordAndLogin(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192545930,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "[NotificationPage] Login successfully",
+            "match": {
+              "location": "NotificationPage_steps.notification_pageLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@P4"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
