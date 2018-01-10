@@ -71,7 +71,7 @@ public class SignInPage {
             clickClearTextBtn();
         }
         */
-        Helper.waitForElementAppear(500);
+        Helper.waitForElementAppear(5000);
         Helper.sendKeysInKeyboard(input);
     }
 

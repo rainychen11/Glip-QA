@@ -7,7 +7,9 @@ import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
-import static org.testng.Assert.assertTrue;
+
+import static junit.framework.TestCase.assertTrue;
+
 
 /**
  * Created by rainy.chen on 9/24/17.

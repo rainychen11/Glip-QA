@@ -6,16 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 78888075128,
+              "duration": 72382257258,
               "status": "passed"
             },
             "match": {
-              "location": "WelcomePage_steps.Start()"
+              "location": "SignInPage_steps.Start()"
             }
           },
           {
             "result": {
-              "duration": 120787,
+              "duration": 52564,
               "status": "passed"
             },
             "match": {
@@ -24,11 +24,11 @@
           },
           {
             "result": {
-              "duration": 69342,
+              "duration": 67010,
               "status": "passed"
             },
             "match": {
-              "location": "SignInPage_steps.Start()"
+              "location": "WelcomePage_steps.Start()"
             }
           }
         ],
@@ -41,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1279055922,
+              "duration": 1216026883,
               "status": "passed"
             },
             "line": 18,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 30111114821,
+              "duration": 38347917011,
               "status": "passed"
             },
             "line": 19,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 192545930,
+              "duration": 171753874,
               "status": "passed"
             },
             "line": 20,
@@ -98,6 +98,6 @@
     "description": "",
     "id": "login",
     "keyword": "Feature",
-    "uri": "features/Login.feature"
+    "uri": "src/features/Login.feature"
   }
 ]

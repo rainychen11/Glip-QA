@@ -9,7 +9,8 @@ import cucumber.api.java.en.Then;
 import Tools.Helper;
 import cucumber.api.java.en.When;
 import static Tools.AppiumTestBase.*;
-import static org.testng.Assert.assertTrue;
+
+
 
 /**
  * Created by rainy.chen on 9/17/17.
@@ -28,6 +29,8 @@ public class SignInPage_steps {
         assertTrue(SignInPage.SignInPageTitle() !=null,"notification screen shows");
     }
 
+    private void assertTrue(boolean b, String notification_screen_shows) {
+    }
 
 
     @When("^\\[SignInPage\\] Input Email \"([^\"]*)\" and Password \"([^\"]*)\" and login$")

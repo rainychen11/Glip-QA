@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/features/Login.feature");
 formatter.feature({
   "line": 1,
   "name": "Login",
@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 78888075128,
+  "duration": 72382257258,
   "status": "passed"
 });
 formatter.before({
-  "duration": 120787,
+  "duration": 52564,
   "status": "passed"
 });
 formatter.before({
-  "duration": 69342,
+  "duration": 67010,
   "status": "passed"
 });
 formatter.scenario({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "WelcomePage_steps.welcome_Page_Enter_Sign_In_Screen()"
 });
 formatter.result({
-  "duration": 1279055922,
+  "duration": 1216026883,
   "status": "passed"
 });
 formatter.match({
@@ -68,14 +68,14 @@ formatter.match({
   "location": "SignInPage_steps.signinpage_InputProductionEmailAndPasswordAndLogin(String,String)"
 });
 formatter.result({
-  "duration": 30111114821,
+  "duration": 38347917011,
   "status": "passed"
 });
 formatter.match({
   "location": "NotificationPage_steps.notification_pageLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 192545930,
+  "duration": 171753874,
   "status": "passed"
 });
 });
